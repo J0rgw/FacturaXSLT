@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="facturae-empresarial.xslt"?>
+<fe:Facturae xmlns:fe="http://www.facturae.es/Facturae/2014/v3.2.1/Facturae">
+  <fe:FileHeader>
+    <fe:SchemaVersion>3.2.1</fe:SchemaVersion>
+    <fe:Modality>I</fe:Modality>
+    <fe:InvoiceIssuerType>EM</fe:InvoiceIssuerType>
+  </fe:FileHeader>
+  <fe:Parties>
+    <fe:SellerParty>
+      <fe:TaxIdentification>
+        <fe:PersonTypeCode>J</fe:PersonTypeCode>
+        <fe:ResidenceTypeCode>R</fe:ResidenceTypeCode>
+        <fe:TaxIdentificationNumber>A28599033</fe:TaxIdentificationNumber>
+      </fe:TaxIdentification>
+      <fe:LegalEntity>
+        <fe:CorporateName>Consultoría Técnica Avanzada S.A.</fe:CorporateName>
+        <fe:AddressInSpain>
+          <fe:Address>Paseo de la Castellana, 123</fe:Address>
+          <fe:PostCode>28046</fe:PostCode>
+          <fe:Town>Madrid</fe:Town>
+          <fe:Province>Madrid</fe:Province>
+          <fe:CountryCode>ESP</fe:CountryCode>
+        </fe:AddressInSpain>
+      </fe:LegalEntity>
+    </fe:SellerParty>
+    <fe:BuyerParty>
+      <fe:TaxIdentification>
+        <fe:PersonTypeCode>J</fe:PersonTypeCode>
+        <fe:ResidenceTypeCode>R</fe:ResidenceTypeCode>
+        <fe:TaxIdentificationNumber>B60477839</fe:TaxIdentificationNumber>
+      </fe:TaxIdentification>
+      <fe:LegalEntity>
+        <fe:CorporateName>Industrias Metálicas Reunidas S.L.</fe:CorporateName>
+        <fe:AddressInSpain>
+          <fe:Address>Polígono Industrial Norte, Calle 8, Parcela 42</fe:Address>
+          <fe:PostCode>46980</fe:PostCode>
+          <fe:Town>Paterna</fe:Town>
+          <fe:Province>Valencia</fe:Province>
+          <fe:CountryCode>ESP</fe:CountryCode>
+        </fe:AddressInSpain>
+      </fe:LegalEntity>
+    </fe:BuyerParty>
+  </fe:Parties>
+  <fe:Invoices>
+    <fe:Invoice>
+      <fe:InvoiceHeader>
+        <fe:InvoiceNumber>2025/153</fe:InvoiceNumber>
+        <fe:InvoiceSeriesCode>B</fe:InvoiceSeriesCode>
+        <fe:InvoiceDocumentType>FC</fe:InvoiceDocumentType>
+        <fe:InvoiceClass>OO</fe:InvoiceClass>
+      </fe:InvoiceHeader>
+      <fe:InvoiceIssueData>
+        <fe:IssueDate>2025-03-05</fe:IssueDate>
+        <fe:InvoiceCurrencyCode>EUR</fe:InvoiceCurrencyCode>
+      </fe:InvoiceIssueData>
+      <fe:TaxesOutputs>
+        <fe:Tax>
+          <fe:TaxTypeCode>01</fe:TaxTypeCode>
+          <fe:TaxRate>21.00</fe:TaxRate>
+          <fe:TaxableBase>
+            <fe:TotalAmount>8750.00</fe:TotalAmount>
+          </fe:TaxableBase>
+          <fe:TaxAmount>
+            <fe:TotalAmount>1837.50</fe:TotalAmount>
+          </fe:TaxAmount>
+        </fe:Tax>
+      </fe:TaxesOutputs>
+      <fe:InvoiceTotals>
+        <fe:TotalGrossAmountBeforeTaxes>8750.00</fe:TotalGrossAmountBeforeTaxes>
+        <fe:TotalTaxOutputs>1837.50</fe:TotalTaxOutputs>
+        <fe:InvoiceTotal>10587.50</fe:InvoiceTotal>
+      </fe:InvoiceTotals>
+      <fe:Items>
+        <fe:InvoiceLine>
+          <fe:ItemDescription>Estudio de optimización de procesos industriales</fe:ItemDescription>
+          <fe:Quantity>1.00</fe:Quantity>
+          <fe:UnitPriceWithoutTax>4500.00</fe:UnitPriceWithoutTax>
+          <fe:TotalAmount>4500.00</fe:TotalAmount>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+          <fe:ItemDescription>Implementación de sistema de monitoreo remoto</fe:ItemDescription>
+          <fe:Quantity>1.00</fe:Quantity>
+          <fe:UnitPriceWithoutTax>3200.00</fe:UnitPriceWithoutTax>
+          <fe:TotalAmount>3200.00</fe:TotalAmount>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+          <fe:ItemDescription>Horas de formación técnica</fe:ItemDescription>
+          <fe:Quantity>15.00</fe:Quantity>
+          <fe:UnitPriceWithoutTax>70.00</fe:UnitPriceWithoutTax>
+          <fe:TotalAmount>1050.00</fe:TotalAmount>
+        </fe:InvoiceLine>
+      </fe:Items>
+      <fe:PaymentDetails>
+        <fe:Installment>
+          <fe:InstallmentDueDate>2025-04-05</fe:InstallmentDueDate>
+          <fe:InstallmentAmount>10587.50</fe:InstallmentAmount>
+          <fe:PaymentMeans>01</fe:PaymentMeans>
+          <fe:AccountToBeCredited>
+            <fe:IBAN>ES82 2095 0500 7091 0387 5783</fe:IBAN>
+          </fe:AccountToBeCredited>
+        </fe:Installment>
+      </fe:PaymentDetails>
+    </fe:Invoice>
+  </fe:Invoices>
+</fe:Facturae>
