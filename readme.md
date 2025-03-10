@@ -8,7 +8,7 @@ Este repositorio contiene plantillas XSLT para transformar archivos XML de Factu
   - [`facturae-empresarial.xslt`](/xslt&xml/facturae-empresarial.xslt): Plantilla con estilo empresarial formal.
   - [`facturae-minimalista.xslt`](/xslt&xml/facturae-minimalista.xslt): Plantilla con estilo minimalista y moderno.
   - [`facturaeEmpresarial.xml`](/xslt&xml/facturaEmpresarial.xml): Factura con estilo empresarial formal.
-  - [`facturae-minimalista.xslt`](/xslt&xml/facturaeMinimalista.xml): Factura con estilo minimalista y moderno.
+  - [`facturaeMinimalista.xslt`](/xslt&xml/facturaeMinimalista.xml): Factura con estilo minimalista y moderno.
 - [`/css`](/css): Contiene los documentos css para aplicar estilos en las transformaciones.
 
 
